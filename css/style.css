@@ -1,0 +1,26 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* HEADER */
+header{
+    height: 80px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+}
+
+.header-container{
+    height: 100%;
+    width: calc(80%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img{
+    height: 80%;
+}
