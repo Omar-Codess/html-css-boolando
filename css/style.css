@@ -110,3 +110,19 @@ header{
 del{
     color: black;
 }
+
+/* FOOTER */
+footer{
+    background-color: black;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+}
