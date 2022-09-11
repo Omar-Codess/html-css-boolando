@@ -9,18 +9,22 @@
 /* HEADER */
 header{
     height: 80px;
-    background-color: orange;
+    background-color: #ff6900;
     display: flex;
     justify-content: center;
 }
 
 .header-container{
     height: 100%;
-    width: calc(80%);
+    min-width: 1200px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
+
 .logo img{
-    height: 80%;
+    height: 40px;
 }
+
