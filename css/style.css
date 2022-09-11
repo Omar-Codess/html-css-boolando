@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 
+img{
+    max-width: 100%;
+}
 
 /* HEADER */
 header{
@@ -21,6 +24,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: white;
 }
 
 
@@ -28,3 +32,81 @@ header{
     height: 40px;
 }
 
+.categories span{
+    padding: 0.3em;
+}
+
+
+/* MAIN */
+.main-container{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.col{
+    width: calc(100% / 3 - 5px);
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.card{
+    position: relative;
+}
+
+.second-image{
+    display: none;
+}
+
+.card-image:hover .first-image{
+    display: none;
+}
+
+.card-image:hover .second-image{
+    display: inline-block;
+}
+
+.etiquettes{
+    position: absolute;
+    bottom: 80px;
+    left:0;
+}
+
+.discount{
+    background-color: red;
+    padding: 0.4em;
+    color: white;
+    display:inline-block
+}
+
+.tag{
+    background-color: green;
+    padding: 0.4em;
+    color: white;
+    display:inline-block;
+}
+
+.heart{
+    font-size: 2em;
+    background-color: white;
+    padding: 0.3em;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    text-align: center;
+}
+
+.heart:hover{
+    color: red;
+}
+
+.price{
+    color: red;
+}
+
+del{
+    color: black;
+}
