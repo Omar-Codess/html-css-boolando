@@ -60,10 +60,12 @@ header{
 }
 .card{
     position: relative;
+    margin-top: 5em;
 }
 
 .second-image{
     display: none;
+
 }
 
 .card-image:hover .first-image{
