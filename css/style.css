@@ -12,9 +12,14 @@ img{
 /* HEADER */
 header{
     height: 80px;
+    width: 100%;
     background-color: #ff6900;
     display: flex;
     justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
 }
 
 .header-container{
